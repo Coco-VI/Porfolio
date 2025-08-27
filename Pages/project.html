@@ -32,147 +32,80 @@
             <!-- En-tête de la page -->
             <section class="projects-hero">
                 <h1>Mes Projets</h1>
-                <p>Découvrez une sélection de mes réalisations récentes</p><br>
-            </section>
-
-            <!-- Filtres de projets -->
-            <section class="projects-filters">
-                <div class="filter-buttons">
-                    <button class="filter-btn active" data-filter="all">✨ Tous</button>
-                    <button class="filter-btn" data-filter="web">🌐 Web</button>
-                    <button class="filter-btn" data-filter="mobile">📱 Mobile</button>
-                    <button class="filter-btn" data-filter="desktop">💻 Desktop</button>
-                    <button class="filter-btn" data-filter="design">🎨 Design</button>
-                </div>
+                <p>Découvrez une sélection de mes réalisations récentes</p>
             </section>
 
             <!-- Grille de projets -->
             <section class="projects-grid">
-                <!-- Projet 1 - Application E-commerce -->
+                <!-- Projet 1 - JardiWorld -->
+                <div class="project-card featured" data-category="game">
+                    <div class="project-image">
+                        <div class="project-icon">🌱</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>JardiWorld - Les plantes contre-attaquent</h3>
+                            <span class="project-badge">Projet Universitaire</span>
+                        </div>
+                        <p class="project-description">
+                            Jeu vidéo en tour par tour inspiré de Plants vs Zombies et Fire Emblem, 
+                            développé avec Unity pour sensibiliser à l'écologie dans un univers humoristique.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature-item">
+                                <span class="feature-icon">🏗️</span>
+                                <span>Développement de la grille de jeu</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🤖</span>
+                                <span>Programmation IA ennemie</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">♿</span>
+                                <span>Fonctionnalités d'accessibilité</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag unity">Unity</span>
+                            <span class="tech-tag csharp">C#</span>
+                            <span class="tech-tag blender">Blender</span>
+                            <span class="tech-tag github">GitHub</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="jardiworld.html" class="btn-project btn-primary">
+                                <span>👁️</span> Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 2 - Portfolio -->
                 <div class="project-card" data-category="web">
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3>ShopSmart - E-commerce</h3>
-                            <div class="project-rating">
-                                <span class="rating-stars">⭐⭐⭐⭐⭐</span>
-                            </div>
-                        </div>
-                        <p class="project-description">
-                            Application e-commerce moderne avec panier dynamique, système de paiement intégré et interface d'administration complète.
-                        </p>
-                        <div class="project-features">
-                            <span class="feature">🛒 Panier dynamique</span>
-                            <span class="feature">💳 Paiement sécurisé</span>
-                            <span class="feature">📊 Dashboard admin</span>
-                        </div>
-                        <div class="project-tech">
-                            <span class="tech-tag react">React</span>
-                            <span class="tech-tag node">Node.js</span>
-                            <span class="tech-tag mongo">MongoDB</span>
-                            <span class="tech-tag stripe">Stripe</span>
-                        </div>
-                        <div class="project-actions">
-                            <a href="#" class="btn-project btn-primary">
-                                <span>🚀</span> Demo
-                            </a>
-                            <a href="#" class="btn-project btn-secondary">
-                                <span>📁</span> Code
-                            </a>
-                            <div class="project-likes">
-                                <button class="like-btn">❤️ 24</button>
-                            </div>
-                        </div>
+                    <div class="project-image">
+                        <div class="project-icon">💼</div>
                     </div>
-                </div>
-
-                <!-- Projet 2 - Application Mobile -->
-                <div class="project-card" data-category="mobile">
                     <div class="project-content">
                         <div class="project-header">
-                            <h3>FitTrack - Fitness App</h3>
-                            <div class="project-rating">
-                                <span class="rating-stars">⭐⭐⭐⭐⭐</span>
-                            </div>
+                            <h3>Portfolio Personnel</h3>
+                            <span class="project-badge">Web</span>
                         </div>
                         <p class="project-description">
-                            Application mobile de suivi fitness avec tracking GPS, programmes personnalisés et suivi des performances.
+                            Site portfolio moderne et responsive présentant mes compétences et projets, 
+                            avec une interface utilisateur soignée et des animations fluides.
                         </p>
                         <div class="project-features">
-                            <span class="feature">📍 GPS Tracking</span>
-                            <span class="feature">📈 Analytics</span>
-                            <span class="feature">🏆 Challenges</span>
-                        </div>
-                        <div class="project-tech">
-                            <span class="tech-tag flutter">Flutter</span>
-                            <span class="tech-tag firebase">Firebase</span>
-                            <span class="tech-tag maps">Google Maps</span>
-                        </div>
-                        <div class="project-actions">
-                            <a href="#" class="btn-project btn-primary">
-                                <span>📱</span> Preview
-                            </a>
-                            <a href="#" class="btn-project btn-secondary">
-                                <span>📁</span> Code
-                            </a>
-                            <div class="project-likes">
-                                <button class="like-btn">❤️ 18</button>
+                            <div class="feature-item">
+                                <span class="feature-icon">📱</span>
+                                <span>Design responsive</span>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Projet 3 - Application Desktop -->
-                <div class="project-card" data-category="desktop">
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3>TaskPro - Gestionnaire</h3>
-                            <div class="project-rating">
-                                <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                            <div class="feature-item">
+                                <span class="feature-icon">✨</span>
+                                <span>Animations CSS</span>
                             </div>
-                        </div>
-                        <p class="project-description">
-                            Gestionnaire de tâches desktop avec interface moderne, notifications temps réel et synchronisation cloud.
-                        </p>
-                        <div class="project-features">
-                            <span class="feature">⏰ Notifications</span>
-                            <span class="feature">☁️ Sync Cloud</span>
-                            <span class="feature">📊 Rapports</span>
-                        </div>
-                        <div class="project-tech">
-                            <span class="tech-tag electron">Electron</span>
-                            <span class="tech-tag react">React</span>
-                            <span class="tech-tag sqlite">SQLite</span>
-                        </div>
-                        <div class="project-actions">
-                            <a href="#" class="btn-project btn-primary">
-                                <span>💻</span> Télécharger
-                            </a>
-                            <a href="#" class="btn-project btn-secondary">
-                                <span>📁</span> Code
-                            </a>
-                            <div class="project-likes">
-                                <button class="like-btn">❤️ 32</button>
+                            <div class="feature-item">
+                                <span class="feature-icon">⚡</span>
+                                <span>Performance optimisée</span>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Projet 4 - Site Portfolio -->
-                <div class="project-card" data-category="web">
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3>Portfolio Interactif</h3>
-                            <div class="project-rating">
-                                <span class="rating-stars">⭐⭐⭐⭐⭐</span>
-                            </div>
-                        </div>
-                        <p class="project-description">
-                            Site portfolio moderne avec animations fluides, mode sombre et optimisation SEO complète.
-                        </p>
-                        <div class="project-features">
-                            <span class="feature">🌙 Mode sombre</span>
-                            <span class="feature">🎨 Animations</span>
-                            <span class="feature">🔍 SEO optimisé</span>
                         </div>
                         <div class="project-tech">
                             <span class="tech-tag html">HTML5</span>
@@ -180,91 +113,54 @@
                             <span class="tech-tag js">JavaScript</span>
                         </div>
                         <div class="project-actions">
-                            <a href="#" class="btn-project btn-primary">
-                                <span>🌐</span> Visiter
+                            <a href="portfolio.html" class="btn-project btn-primary">
+                                <span>👁️</span> Voir le projet
                             </a>
-                            <a href="#" class="btn-project btn-secondary">
-                                <span>📁</span> Code
-                            </a>
-                            <div class="project-likes">
-                                <button class="like-btn">❤️ 45</button>
-                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Projet 5 - Design System -->
-                <div class="project-card" data-category="design">
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3>Design System Pro</h3>
-                            <div class="project-rating">
-                                <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                <!-- Projet 3 : Analyse Météorologique -->
+                    <div class="project-card" data-category="academic">
+                        <div class="project-image">
+                            <div class="project-icon">📊</div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>Analyse Météorologique</h3>
+                                <span class="project-badge academic">Académique</span>
                             </div>
-                        </div>
-                        <p class="project-description">
-                            Système de design complet avec composants réutilisables, guide de style et documentation interactive.
-                        </p>
-                        <div class="project-features">
-                            <span class="feature">🎨 Composants</span>
-                            <span class="feature">📖 Documentation</span>
-                            <span class="feature">🔧 Customisable</span>
-                        </div>
-                        <div class="project-tech">
-                            <span class="tech-tag figma">Figma</span>
-                            <span class="tech-tag sketch">Sketch</span>
-                            <span class="tech-tag storybook">Storybook</span>
-                        </div>
-                        <div class="project-actions">
-                            <a href="#" class="btn-project btn-primary">
-                                <span>🎨</span> Figma
-                            </a>
-                            <a href="#" class="btn-project btn-secondary">
-                                <span>📚</span> Guide
-                            </a>
-                            <div class="project-likes">
-                                <button class="like-btn">❤️ 28</button>
+                            <p class="project-description">
+                                Application C++ de récupération, analyse et visualisation graphique de données 
+                                météorologiques. Projet universitaire développé en binôme avec gestion 
+                                collaborative et documentation complète.
+                            </p>
+                            <div class="project-features">
+                                <div class="feature-item">
+                                    <span class="feature-icon">🔄</span>
+                                    <span>Récupération de données</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">📈</span>
+                                    <span>Visualisation graphique</span>
+                                </div>
+                                <div class="feature-item">
+                                    <span class="feature-icon">👥</span>
+                                    <span>Travail en équipe</span>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Projet 6 - API REST -->
-                <div class="project-card" data-category="web">
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3>API REST Scalable</h3>
-                            <div class="project-rating">
-                                <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                            <div class="project-tech">
+                                <span class="tech-tag cpp">C++</span>
+                                <span class="tech-tag data">Data Analysis</span>
+                                <span class="tech-tag graphics">Graphics</span>
                             </div>
-                        </div>
-                        <p class="project-description">
-                            API REST robuste avec authentification JWT, rate limiting et documentation Swagger complète.
-                        </p>
-                        <div class="project-features">
-                            <span class="feature">🔐 JWT Auth</span>
-                            <span class="feature">📊 Rate Limiting</span>
-                            <span class="feature">📝 Documentation</span>
-                        </div>
-                        <div class="project-tech">
-                            <span class="tech-tag node">Node.js</span>
-                            <span class="tech-tag express">Express</span>
-                            <span class="tech-tag mongo">MongoDB</span>
-                            <span class="tech-tag swagger">Swagger</span>
-                        </div>
-                        <div class="project-actions">
-                            <a href="#" class="btn-project btn-primary">
-                                <span>📡</span> API
-                            </a>
-                            <a href="#" class="btn-project btn-secondary">
-                                <span>📁</span> Code
-                            </a>
-                            <div class="project-likes">
-                                <button class="like-btn">❤️ 15</button>
+                            <div class="project-actions">
+                                <a href="weather.html" class="btn-project btn-primary">
+                                    <span>👁️</span> Voir le projet
+                                </a>
                             </div>
                         </div>
                     </div>
-                </div>
             </section>
         </div>
     </main>
